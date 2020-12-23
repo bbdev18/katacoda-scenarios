@@ -1,26 +1,26 @@
 {
-  "title": "Creating Your First Katacoda Scenario",
-  "description": "Learn how to create your first Katacoda scenario",
+  "title": "CHPC Summer School Terminal + Python Lessons",
+  "description": "Learn the fundamental principles of how to use a linux terminal and Python commands!",
   "details": {
     "steps": [
       {
-        "title": "Step 1 - Scenario Structure",
+        "title": "Step 1 - Navigating The Home Directory",
         "text": "step1.md"
       },
       {
-        "title": "Step 2 - Scenario Syntax",
+        "title": "Step 2 - CRUD - Creating, Read, Update, & Delete",
         "text": "step2.md"
       },
       {
-        "title": "Step 3 - CLI",
+        "title": "Step 3 - Python Environment",
         "text": "step3.md"
       },
       {
-        "title": "Step 4 - VS Code Extension",
+        "title": "Step 4 - Python Variables",
         "text": "step4.md"
       },
       {
-        "title": "Step 5 - WebHooks",
+        "title": "Step 5 - Conditions & Loops",
         "text": "step5.md"
       }
     ],
