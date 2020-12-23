@@ -1,6 +1,25 @@
 Bismillah A Katacoda scenario is a series of Markdown files, bash scripts and a JSON file to define how your scenario should be configured, the text for the scenario and any automation required.
 
-## Task
+## Task 1
+Check what version of terminal and OS:
+`cat /etc/os-release`{{executre}}
+
+Or
+
+`lsb_release -a`{{executre}}
+
+Or
+
+`hostnamectl`{{execute}}
+
+## Task 2
+Check what files are currently in the directory
+
+## Task 3
+
+## Task 4
+
+## Task 5
 
 Clone our example repository that contains the set of documentation with the following command:
 

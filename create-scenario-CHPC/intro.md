@@ -1,1 +1,7 @@
-Bismillah In this scenario, you will learn how to create your first Katacoda scenario. It will explain the essential aspects and the design decisions that you need to be aware of.
+Welcome to the CHPC Summerschool. You will learn how to create use a linux terminal and the basics behind Python programming. 
+You will learn the following steps:
+- Step 1 - Navigating The Home Directory
+- Step 2 - CRUD - Creating, Read, Update, & Delete
+- Step 3 - Python Environment
+- Step 4 - Python Variables
+- Step 5 - Conditions & Loops
