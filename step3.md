@@ -1,3 +1,0 @@
-# TEST
-
-Step 3
