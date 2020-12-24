@@ -8,9 +8,9 @@ Input the following:
 ```
 x = 42
 if x > 40:
- print(`Yes x is greater than 42`)
+ print("Yes x is greater than 40, it is: " + str(x))
 else:
- print(`No x is not greater than 42`)
+ print("No x is not greater than 40, it is: " + str(x))
 ```{{execute}}
 
 You should see `...`, press enter to run the condition.
