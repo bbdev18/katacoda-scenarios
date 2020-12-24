@@ -1,26 +1,34 @@
-To help create the index.json and scenario structure, Katacoda has developed a command line interactive (CLI).
+## "There is no spoon"
 
-## Install CLI
+This is where the fun begins - dodging bullets! 
 
-Install the CLI with the command `npm i katacoda-cli --global`{{execute}}.
+Welcome to the world of Python. First things first lets see if Python is available to use. We do this by checking if a version of Python exists. Input the command `python3 --version`, note depending on how Python was setup you can also use `python --version`. It should show `Python 3.6.9`, great lets jump in - you took the red pill right?
 
-The commands follow the syntax is
-`$ katacoda COMMAND`
+Input the command `python3`, a python terminal should appear.
 
-After the install has finished, the command can be run via `katacoda --help`{{execute}}.
+Lets start off with some variables and simple maths functions. Try out the following commands and I will explain afterwards what is happening:
 
-## Create scenario
-For example, to create a new scenario you would run the command `katacoda scenarios:create`{{execute}}. The CLI will prompt you a few questions in order to create your scenario:
-- **Friendly URL:** here you will type `test-scenario`. This attribute will determine the name of the folder of your scenario, and the URL to access it, so, should not contain spaces, should be lower case, etc. For example, if your username is *test-username* and your scenario was called *test-scenario* as suggested, the URL to point the scenario in the platform will be https://katacoda.com/test-username/scenarios/test-scenario/
-- **Title:** title the scenario
-- **Description:** description of the scenario, displayed on the intro screen
-- **Difficulty level:** provide users with a sense of the depth of content, displayed on the intro screen
-- **Estimated time:** provide users with an estimated time to complete, displayed on the intro screen
-- **Number of steps:** the numbers of the steps that the scenario will have. The CLI will create all the template files for all the steps that you specified
-- **Image:** it will determine which base software will be available for your scenario. For example, if you need docker, java, go, etc as a pre-requisite. For more information read [katacoda.com/docs/scenarios/environments](https://katacoda.com/docs/scenarios/environments)
-- **Layout:** it will determine the disposition of the elements of your scenario. For example, if you want to present only a terminal, or editor + terminal, etc. For more information read [katacoda.com/docs/scenarios/layouts](https://katacoda.com/docs/scenarios/layouts)
+`40+2`{{execute}}
 
-With this information, the CLI will create a folder with the name of the ***friendly URL*** introduced and will create inside of that folder the required files for your scenario.
+`print(40+2)`{{execute}}
 
-You can check your scenario created with this command:
-`ls test-scenario*`{{execute}}
+`name = wabbit`{{execute}}
+
+`print(name)`{{execute}}
+
+`x = 40`{{execute}}
+
+`y = 2`{{execute}}
+
+`x`{{execute}}
+
+`y`{{execute}}
+
+`answer_to_the_question_of_life = x + y`{{execute}}
+
+`print(answer_to_the_question_of_life)`{{execute}}
+
+First off we did some basic math sums like `40+2`, and you should have seen the answer. We can also print that answer as text, also know as a string, with print(40 + 2).
+
+We then just started assigning some variables like `x = 40` and `y = 2` which will be stored so we can use it later. We can print out what those variables represent at any time if you just input `x` and `y`. The we are made a sum `answer_to_the_question_of_life = x + y` which we then printed out on the terminal using the `print` function: `print(answer_to_the_question_of_life)`. 
+
