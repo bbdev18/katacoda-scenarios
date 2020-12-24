@@ -21,7 +21,7 @@ Input the following:
 ```python
 for i in range(10):
  print(i)
-```
-{{execute}}
+```{{execute}}
 
-To exit the Python terminal input the command `exit()`.
+
+To exit the Python terminal input the command `exit()`{{execute}}.
