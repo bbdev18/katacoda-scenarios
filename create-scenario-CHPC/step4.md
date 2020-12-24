@@ -12,6 +12,7 @@ if x > 40:
 else:
  print(`No x is not greater than 42`)
 ```
+{{execute}}
 
 And a loops, lets look at a for loop.
 
@@ -21,4 +22,6 @@ Input the following:
 for i in range(10):
  print(i)
 ```
+{{execute}}
 
+To exit the Python terminal input the command `exit()`.
