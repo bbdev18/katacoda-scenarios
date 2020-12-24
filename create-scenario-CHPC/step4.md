@@ -5,23 +5,32 @@ First off let us have a look at conditions. For example, if a number `x = 42` ch
 
 Input the following:
 
-```python
+```
 x = 42
 if x > 40:
  print(`Yes x is greater than 42`)
 else:
  print(`No x is not greater than 42`)
-```
-{{execute}}
+```{{execute}}
+
+You should see `...`, press enter to run the condition.
+
+Can you explain what this did?
 
 And a loops, lets look at a for loop.
 
 Input the following:
 
-```python
+```
 for i in range(10):
  print(i)
+
 ```{{execute}}
 
+You should see `...`, press enter to run the condition.
+
+Can you explain what this did?
+
+That is all for now!
 
 To exit the Python terminal input the command `exit()`{{execute}}.
