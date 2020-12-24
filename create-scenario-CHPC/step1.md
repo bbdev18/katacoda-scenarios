@@ -1,6 +1,7 @@
+
+## "Unfortunately, no one can be told what The Terminal is, You'll have to see it for yourself."
 Wow, whats going on here. We have three windows. The far left one is you tutorial section, the top right is the folder and editor window, and the bottom right is the bash terminal where `$` sign is showing. Where do you begin?
 
-## Task 1
 Let us play around with a few commands and then I will explain what they all do.
 In this tutorial you can click on the `grey` command and it will actually execute in the terminal or you can type it out and then press `enter`.
 For example, go ahead and click on the following command `click me`{{execute}}. You will see that the command `click me` was input into
